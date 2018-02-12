@@ -1,0 +1,25 @@
+
+footer {
+    position: fixed;
+     bottom:0;
+    width: 1200px;
+    height: 30px;
+}
+.navbar-fixed-bottom li
+{
+    margin-left: 40px;
+    width: 200px;
+    list-style: none;
+    float: left;
+    font-weight: 600;
+    text-align: center;
+}
+.navbar-fixed-bottom li a
+{
+    text-decoration: none;
+    text-align: center;
+}
+.navbar-fixed-bottom li:hover a
+{
+    color:brown;
+}

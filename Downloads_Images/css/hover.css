@@ -1,0 +1,67 @@
+*  
+/* "*" is used for whole body*/
+{
+    margin:0px;
+    padding:0px;
+}
+#menu ul{
+    list-style: none;
+}
+#menu ul li
+{
+    background-image: url(../images/Back.jpg);
+    
+    margin:2px;
+    width:180px;
+    height:35px;
+    text-align: center;
+    line-height: 35px;
+    float:left;
+    position: relative;
+    border-radius: 8px;
+    opacity: 0.99;
+}
+#menu ul li a
+{
+    text-decoration:none;
+    color:black;
+    display:block;
+    font-size: 22px;
+}
+#menu ul li a:hover
+{
+    background-image: url(../images/Back_hover.jpg);
+    height: 36px;
+    border-radius: 8px;
+    opacity: inherit;
+}
+#menu ul ul
+{
+    position: absolute;
+    display: none;
+}
+#menu ul li:hover > ul
+{
+  display:block;  
+}
+#menu ul ul ul
+{
+    margin-left:180px;
+    top:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

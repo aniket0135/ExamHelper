@@ -1,0 +1,102 @@
+body
+{
+    background-color:#a0d8d6;
+    
+}
+.form
+{
+    text-align: center;
+   color:blueviolet; 
+}
+.view
+{
+    text-align:justify;
+    font-size:15px;
+    color:#ae2018;
+}
+
+.hello 
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    color:#9b8d44;
+}
+
+
+nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:darkblue;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav a{
+    width:120px;
+    display:inline;
+    display: flex;
+}
+.mnnit
+{  font-family:Georgia;
+    font-size:16px;
+    position: absolute;
+    left:650px;
+    bottom:20px;
+    text-align:center;
+    text-decoration: none;
+    color:#080349;
+}
+.upload_body{
+    background-image: url(BeautifulBokehVectorBackground.jpg);
+}
+.upload{
+    text-decoration: none;
+    
+}/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}

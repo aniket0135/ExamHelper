@@ -1,0 +1,217 @@
+
+.container-fluid h1{
+    color: #159d15;
+    font-size:43px;
+    font-weight: 700;
+}
+
+.paragraph
+{
+    margin-top: 0px;
+    width: 140px;
+    height: 200px;
+    text-align: center;
+    line-height: 50px;
+ color: #e2dede;
+    background: linear-gradient(to bottom,#28591c,#448c30) ;
+    font-weight: 600;
+}
+@media (max-width:670px)
+{
+    .paragraph{width: 500px; !important;}
+    .paragraph{margin-left:-22px; !important;}
+    .paragraph{margin-top: 100px; !important;}
+}
+.welcome
+{
+    color: #efe5e5;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 800;
+}
+.row p
+{
+    color: #e3f1ab;
+}
+
+.button
+{
+    height:50px;
+    width:180px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    background-color:cadetblue;
+    
+}
+button.active
+{
+    color: aliceblue;
+}
+
+/*********forButton********/
+
+.Uploads {
+    background-color: #4d644d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    width: 180px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.Uploads:hover, .Uploads:focus {
+    background-color: #205420;
+}
+
+.dropdown_uploads {
+    position: relative;
+    display: inline-block;
+}
+
+.Uploads_content {
+    display: none;
+    position: absolute;
+    background-color:#e5dbdb;
+    width:180px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.Uploads_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+}
+
+.dropdown_uploads a:hover {background-color: #f1f1f1}
+
+.view {display:block;}
+/* for downloads*/
+
+.Downloads {
+    background-color:#4d644d ;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    width: 180px;
+    border: none;
+    cursor: pointer;
+}
+
+.Downloads:hover, .Downloads:focus {
+    background-color:#205420 ;
+}
+
+.dropdown_downloads {
+    position: relative;
+    display: inline-block;
+}
+
+.Downloads_content {
+    display: none;
+    position: absolute;
+    background-color:#e5dbdb;
+    width:180px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.Downloads_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+}
+
+.dropdown_downloads a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+.fb-like{
+            margin-left: 90px;
+            margin-top: 30px;
+            
+        }
+
+
+
+.contact_info {
+    color:#fcfcfc;
+    font-size: 16px;
+}
+
+.top_bar {
+    background-color: #595454;
+}
+
+.my_menu {
+    margin-top: 30px;
+}
+
+.my_menu .navbar-inverse
+{
+      width: 800px;
+    background: #282828;
+    border:none
+}
+
+.my_menu .navbar-nav li 
+{
+    width: 125px;
+    text-align: center;
+font-weight: 600;
+}
+
+@media (max-width:1200px)
+{
+    .my_menu .pull-right{float:none !important;}
+}
+
+.upload_download {
+    margin-top:100px;
+}
+
+@media (max-width:670px)
+{
+    .Uploads{margin-left:20px; !important;}
+    .Uploads_content{margin-left:20px; !important;}
+   .Downloads{margin-left:40px; !important;}
+    .Downloads_content{margin-left:40px; !important}
+}
+
+@media (max-width:670px)
+    
+{
+    .my_menu .navbar-inverse{width: 500px; !important;}
+
+}
+
+@media (max-width:670px)
+{
+    .incorrect{margin-left:200px; !important;}
+}
+.content {
+    text-align:center;
+    margin-top: 200px;
+}
+
+.fb {
+    margin: 20px;
+}
+#back_ground
+{
+    background-color: #f1eded;
+
+}

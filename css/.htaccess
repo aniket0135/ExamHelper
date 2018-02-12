@@ -1,0 +1,14 @@
+ErrorDocument 404 http://172.31.72.198/404.html
+Options -Indexes
+
+#Remove php from page
+
+RewriteEngine On
+RewriteRule ^Home index.php [NC,L]
+#RewriteRule ^Contact form.php [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+RewriteCond %{REQUEST_URI} !/s
+
+RewriteRule ^(.*)$ $1.php
